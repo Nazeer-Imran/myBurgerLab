@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .S1{
+     background-image: url('images/Shape1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+} 
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+}
+ul li{
+    margin: 0 30px;
+    list-style: none;
+
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+}
+.logo{
+    padding: 15px;
+}.intro{
+    position: absolute;
+    left: 20px;
+    top: 200px;
+    color: white;
+    padding: 15px;
+    
+}
+.btn{
+    font-family: Arial;
+    color: white;
+    background-color: orange;
+
+    padding:5px 30px;
+    margin-top :20px; 
+    border-radius: 20px;
+    font-size: larger;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.btn:hover{
+    color: orange;
+    background-color: white;
+}
+.sec{
+    background-image: url(images/Shape2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.ima{
+padding: 15px;
+}
+.sec2{
+    display: flex;
+    justify-content: space-between;
+
+}
+.h2{
+    text-transform: uppercase;
+    
+margin-left: 200px;
+margin-top: 50px;
+}
+.p1{
+    margin-left: 25px;
+    padding: 10 0;
+    line-height: 30px;
+    justify-content: center;
+    text-align: justify;
+    color: orangered;
+}
+.ima{
+padding: 35px;
+}
+.sec2_1{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.img_7{
+padding-top: 170px;
+}
+.chef img{
+    width: 200px;
+    
+}
+ .chef{
+    display: flex;
+}
+.foot{
+    
+    display: flex;
+    justify-content: space-around;
+  
+
+}
+
+.thir{
+    background-image: url(images/Shape3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+   
+}
+.best{
+position: absolute;
+top: 80px;
+left: 90px;
+
+}
+ .best img{
+    width: 80%;
+} 
+.cont{
+  height: 50vh;
+    position: absolute;
+    top: 22%;
+    left: 60%;
+    padding: 20px;
+    line-height: 30px;
+}
+.four{
+    background-image: url(images/Shape2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+position: relative;
+}
+.big{
+    display: flex;
+    justify-content: space-between;
+}
+.stat{
+    color: orangered;
+    position: absolute;
+    top: 280px;
+    left: 50px;
+    line-height: 30px;
+    font-weight: bolder;
+}
+.big_1{
+    position: absolute;
+    top: 90px;
+    right: 80px;
+}
+.fourfoot{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+.five{
+    background-image: url(images/Shape3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.stati{
+    text-align: center;
+    justify-content: center;
+    color: white;
+    line-height: 40px;
+    padding: 50px;
+}
+.fivefoot{
+    position: absolute;
+    top: 200px;
+    left: 320px;
+    display: flex;
+    color: whitesmoke;    
+}
+.sixt{
+    background-image: url(images/Shape2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+}
+.six{
+    display: flex;
+    justify-content: space-around;
+}
+.six-2{
+    display: flex;
+    justify-content: space-around;
+    color: orangered;
+}
+.sev{
+    background-image:linear-gradient(to bottom, rgb(250, 139, 111)50%, rgba(219, 191, 138, 0.372)90%);
+    background-image: url(images/Shape4.png); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.sevtext{
+    position: absolute;
+    top: 42%;
+    left: 35%;
+    text-align: center;
+    color: white;
+    line-height: 38px;
+}
+.eight{
+    background-image: url(images/Shape2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.eight-1{
+    display: flex;
+    justify-content: space-between;
+}
+.eight-2{
+    display: flex;
+    justify-content: space-between;
+}
+.mid{
+    text-align: center;
+    line-height: 40px;
+    padding: 30px;
+    font-size: x-large;
+    color: orangered;
+}
+.em{
+    width: 330px;
+    height: 35px;
+    border-radius: 10%;
+    border: none;
+}
+.btn-2{
+    width: 100px;
+    height: 35px;
+    color: white;
+    font-weight: 300;
+    background-color: orangered;
+    border: none;
+    border-radius: 15%;
+    transition: 0.5s;
+}
+.btn-2:hover{
+    background-color: orange;
+    color: black;
+    cursor: pointer;
+}
+.eightfoot{
+    display: flex;
+    justify-content: space-between;
+}
+.last{
+    background-image: url(images/Shapefooter.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.logos{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    color: white;
+    font-size:large ;
+    line-height: 30px;
+}
+.footlogo{
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    
+}
+.about{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    color: white;
+    font-size:large ;
+    line-height: 30px;
+}  
+.services{
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    color: white;
+    font-size:large ;
+    line-height: 30px;
+}
+.other{
+    position: absolute;
+    top: 40%;
+    right: 13%;
+    color: white;
+    font-size:large ;
+    line-height: 30px;
+}
